@@ -19,7 +19,7 @@ load_dotenv()
 # Create the agent with a standard executor
 agent = CodeAgent(
     tools=[VisitWebpageTool()],
-    model=HfApiModel(token='ENCRYPTED'),
+    #model=HfApiModel(token='ENCRYPTED'),
     additional_authorized_imports=["requests", "markdownify"],
     executor_type="e2b"
 )
