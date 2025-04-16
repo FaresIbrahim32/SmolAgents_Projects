@@ -1,0 +1,1 @@
+These are all SmolAgents projects I followed from YouTube and Hugging Face documentation , the #model lines in first and second are commented out to make it easy to push on GitHub but you have to uncomment them. You also need a Hugging Face inference tokenand a sandbox token in your ENV file when you want to run their projects
