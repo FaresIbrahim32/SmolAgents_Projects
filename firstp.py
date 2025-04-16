@@ -5,7 +5,7 @@ import os
 #hf_api_token = os.environ.get("HF_TOKEN")  # Your env variable name
 
 # Initialize the HfApiModel correctly
-model = HfApiModel(token='hf_xxxxxxxxxxxxxxxxxxxxxx')  # Use 'token' instead of 'api_key'
+model = HfApiModel(token='ENCRYPTED')  # Use 'token' instead of 'api_key'
 
 # Create the agent with the authenticated model
 agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=model)
